@@ -14,6 +14,7 @@ import ProfileIcon from '../assets/icons/people.svg';
 import SearchIcon from '../assets/icons/loup.svg';
 import NotificationIcon from '../assets/icons/Icon_notifications_9.svg';
 import StatsIcon from '../assets/icons/stats.svg';
+import Header from '../components/Header/Header';
 
 const theme = DefaultTheme;
 theme.colors.background = '#FFFFFF';
@@ -57,6 +58,11 @@ const TabNavigator = () => {
             }
             if (route.name === Screens.tabs.STATS && focused) {
               return <Text style={styles.tabBarLabel}>{Screens.tabs.STATS}</Text>;
+            }
+          },
+          header: ({route}) => {
+            if (route.name === Screens.tabs.RESOURCES){
+              return <Header />
             }
           },
           tabBarActiveTintColor: colors.primary,
