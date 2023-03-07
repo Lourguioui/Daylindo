@@ -7,6 +7,7 @@ export const tabs = {
 };
 
 export const ResourcesStack = {
+  TABS: 'Tabs',
   RESOURCES: 'ResourcesScreen',
   CATEGORIES: 'Categories',
   CATEGORY: 'Category',

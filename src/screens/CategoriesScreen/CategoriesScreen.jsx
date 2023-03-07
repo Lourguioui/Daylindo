@@ -5,7 +5,7 @@ import styles from './styles';
 const CategoriesScreen = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Categories Screen</Text>
+      <Text style={{ color: 'black' }}>Categories Screen</Text>
     </SafeAreaView>
   );
 };

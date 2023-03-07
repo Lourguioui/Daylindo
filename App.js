@@ -26,12 +26,12 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-import TabNavigator from './src/navigation/tabNavigation';
+import ResourcesStack from './src/navigation/resourcesStack';
 
 import Logo from './src/assets/icons/Logo.svg';
 
 const App: () => Node = () => {
-  return <TabNavigator />;
+  return <ResourcesStack />;
 };
 
 export default App;

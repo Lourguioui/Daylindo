@@ -1,19 +1,25 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import ResourcesScreen from '../screens/ResourcesScreen/ResourcesScreen';
 import CategoriesScreen from '../screens/CategoriesScreen/CategoriesScreen';
 import CategoryScreen from '../screens/CategoryScreen/CategoryScreen';
+import TabNavigator from './tabNavigation';
 import * as Screens from './navigation';
 
+const theme = DefaultTheme;
+theme.colors.background = '#FFFFFF';
 
-const ResourcesRootStack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
 const ResourcesStack = () => {
-  return(
-    <ResourcesRootStack.Navigator screenOptions={{ headerShown: false }}>
-      <ResourcesRootStack.Screen name={Screens.ResourcesStack.RESOURCES} component={ResourcesScreen} />
-      <ResourcesRootStack.Screen name={Screens.ResourcesStack.CATEGORIES} component={CategoriesScreen} />
-      <ResourcesRootStack.Screen name={Screens.ResourcesStack.CATEGORY} component={CategoryScreen} />
-    </ResourcesRootStack.Navigator>
+  return (
+    <NavigationContainer theme={theme} independent={true}>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
+        <Stack.Screen name={Screens.ResourcesStack.TABS} component={TabNavigator} />
+        <Stack.Screen name={Screens.ResourcesStack.CATEGORIES} component={CategoriesScreen} />
+        <Stack.Screen name={Screens.ResourcesStack.CATEGORY} component={CategoryScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 };
 

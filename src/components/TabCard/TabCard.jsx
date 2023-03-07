@@ -4,9 +4,9 @@ import WrappedIcon from '../WrappedIcon/WrappedIcon';
 import ArrowRight from '../../assets/icons/arrow_right.svg';
 import styles from './styles';
 
-export const TabCard = ({ title, icon, subtitle }) => {
+export const TabCard = ({ title, icon, subtitle, onPress }) => {
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity style={styles.container} onPress={() => onPress && onPress()}>
       <View style={styles.mainView}>
         <WrappedIcon icon={icon} />
         <View>

@@ -23,59 +23,57 @@ const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => {
   return (
-    <NavigationContainer theme={theme}>
-      <Tab.Navigator
-        screenOptions={({ route }) => ({
-          tabBarIcon: ({ focused, color, size }) => {
-            if (route.name === Screens.tabs.HOME) {
-              return <LogoIcon color={color} fill={color} />;
-            }
-            if (route.name === Screens.tabs.RESOURCES) {
-              return <SearchIcon color={color} fill={color} />;
-            }
-            if (route.name === Screens.tabs.ACCOUNT) {
-              return <ProfileIcon color={color} />;
-            }
-            if (route.name === Screens.tabs.NOTIFICATIONS) {
-              return <NotificationIcon color={color} />;
-            }
-            if (route.name === Screens.tabs.STATS) {
-              return <StatsIcon color={color} />;
-            }
-          },
-          tabBarLabel: ({ focused, color }) => {
-            if (route.name === Screens.tabs.HOME && focused) {
-              return <Text style={styles.tabBarLabel}>{Screens.tabs.HOME}</Text>;
-            }
-            if (route.name === Screens.tabs.RESOURCES && focused) {
-              return <Text style={styles.tabBarLabel}>{Screens.tabs.RESOURCES}</Text>;
-            }
-            if (route.name === Screens.tabs.ACCOUNT && focused) {
-              return <Text style={styles.tabBarLabel}>{Screens.tabs.ACCOUNT}</Text>;
-            }
-            if (route.name === Screens.tabs.NOTIFICATIONS && focused) {
-              return <Text style={styles.tabBarLabel}>{Screens.tabs.NOTIFICATIONS}</Text>;
-            }
-            if (route.name === Screens.tabs.STATS && focused) {
-              return <Text style={styles.tabBarLabel}>{Screens.tabs.STATS}</Text>;
-            }
-          },
-          header: ({route}) => {
-            if (route.name === Screens.tabs.RESOURCES){
-              return <Header />
-            }
-          },
-          tabBarActiveTintColor: colors.primary,
-          tabBarStyle: styles.tabBar,
-          headerShown: route.name === Screens.tabs.RESOURCES ? true : false,
-        })}>
-        <Tab.Screen name={Screens.tabs.HOME} component={HomeScreen} />
-        <Tab.Screen name={Screens.tabs.RESOURCES} component={ResourcesStack} />
-        <Tab.Screen name={Screens.tabs.ACCOUNT} component={ProfileScreen} />
-        <Tab.Screen name={Screens.tabs.NOTIFICATIONS} component={NotificationsSccreen} />
-        <Tab.Screen name={Screens.tabs.STATS} component={StatsScreen} />
-      </Tab.Navigator>
-    </NavigationContainer>
+    <Tab.Navigator
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ focused, color, size }) => {
+          if (route.name === Screens.tabs.HOME) {
+            return <LogoIcon color={color} fill={color} />;
+          }
+          if (route.name === Screens.tabs.RESOURCES) {
+            return <SearchIcon color={color} fill={color} />;
+          }
+          if (route.name === Screens.tabs.ACCOUNT) {
+            return <ProfileIcon color={color} />;
+          }
+          if (route.name === Screens.tabs.NOTIFICATIONS) {
+            return <NotificationIcon color={color} />;
+          }
+          if (route.name === Screens.tabs.STATS) {
+            return <StatsIcon color={color} />;
+          }
+        },
+        tabBarLabel: ({ focused, color }) => {
+          if (route.name === Screens.tabs.HOME && focused) {
+            return <Text style={styles.tabBarLabel}>{Screens.tabs.HOME}</Text>;
+          }
+          if (route.name === Screens.tabs.RESOURCES && focused) {
+            return <Text style={styles.tabBarLabel}>{Screens.tabs.RESOURCES}</Text>;
+          }
+          if (route.name === Screens.tabs.ACCOUNT && focused) {
+            return <Text style={styles.tabBarLabel}>{Screens.tabs.ACCOUNT}</Text>;
+          }
+          if (route.name === Screens.tabs.NOTIFICATIONS && focused) {
+            return <Text style={styles.tabBarLabel}>{Screens.tabs.NOTIFICATIONS}</Text>;
+          }
+          if (route.name === Screens.tabs.STATS && focused) {
+            return <Text style={styles.tabBarLabel}>{Screens.tabs.STATS}</Text>;
+          }
+        },
+        header: ({ route }) => {
+          if (route.name === Screens.tabs.RESOURCES) {
+            return <Header />;
+          }
+        },
+        tabBarActiveTintColor: colors.primary,
+        tabBarStyle: styles.tabBar,
+        headerShown: route.name === Screens.tabs.RESOURCES ? true : false,
+      })}>
+      <Tab.Screen name={Screens.tabs.HOME} component={HomeScreen} />
+      <Tab.Screen name={Screens.tabs.RESOURCES} component={ResourcesScreen} />
+      <Tab.Screen name={Screens.tabs.ACCOUNT} component={ProfileScreen} />
+      <Tab.Screen name={Screens.tabs.NOTIFICATIONS} component={NotificationsSccreen} />
+      <Tab.Screen name={Screens.tabs.STATS} component={StatsScreen} />
+    </Tab.Navigator>
   );
 };
 
