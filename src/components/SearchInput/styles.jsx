@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.backgrounds.secondary,
     borderRadius: 8,
     alignItems: 'center',
-    height: 50,
+    height: 40,
   },
   input: {
     marginLeft: 20,

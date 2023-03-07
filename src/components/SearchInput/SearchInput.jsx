@@ -2,14 +2,14 @@ import * as React from "react";
 import { View, TextInput } from "react-native";
 import styles from "./styles";
 import {colors, fonts} from '../../themes';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import LoupeIcon from '../../assets/icons/ic_search.svg';
 
 const SearchrchInput = () => {
   return (
     <View style={styles.container}>
-      <Icon name="Rechercher dans ressources" size={25} color={colors.text.light} />
+      <LoupeIcon fill={colors.primary} />
       <TextInput style={styles.input} 
-                 placeholder="Search" 
+                 placeholder="Rechercher dans ressources" 
                  placeholderTextColor={colors.text.light}
         />
     </View>
