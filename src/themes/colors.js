@@ -9,4 +9,8 @@ export const colors = {
     primary: '#FE870E',
     secondary: '#FD5250',
   },
+  backgrounds: {
+    primary: '#FFF',
+    secondary: '#bfbfbf1a',
+  },
 };

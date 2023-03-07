@@ -1,0 +1,10 @@
+{
+  "icon": true,
+  "expandProps": false,
+  "replaceAttrValues": {
+    "#748A9D": "{props.fill}",
+    "#000000": "{props.fill}",
+    "#000": "{props.fill}",
+    "#7F7F7F": "{props.fill}"
+  }
+}
