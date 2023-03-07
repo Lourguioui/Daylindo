@@ -1,4 +1,4 @@
-import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
+import {  DefaultTheme } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { StyleSheet, Text } from 'react-native';
 import HomeScreen from '../screens/HomeScreen/HomeScreen';
@@ -6,7 +6,6 @@ import ProfileScreen from '../screens/ProfileScreen/ProfileScreen';
 import NotificationsSccreen from '../screens/NotificationsScreen/NotificationsSccreen';
 import ResourcesScreen from '../screens/ResourcesScreen/ResourcesScreen';
 import StatsScreen from '../screens/StatsScreen/StatsScreen';
-import ResourcesStack from './resourcesStack';
 import * as Screens from './navigation';
 import { colors, fonts } from '../themes/index';
 import LogoIcon from '../assets/icons/logo_icon.svg';
@@ -67,6 +66,7 @@ const TabNavigator = () => {
         tabBarActiveTintColor: colors.primary,
         tabBarStyle: styles.tabBar,
         headerShown: route.name === Screens.tabs.RESOURCES ? true : false,
+        tabBarHideOnKeyboard: true,
       })}>
       <Tab.Screen name={Screens.tabs.HOME} component={HomeScreen} />
       <Tab.Screen name={Screens.tabs.RESOURCES} component={ResourcesScreen} />
