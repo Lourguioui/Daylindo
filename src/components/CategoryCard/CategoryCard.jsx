@@ -3,9 +3,9 @@ import { TouchableOpacity, Text, ImageBackground, View } from 'react-native';
 import CategoryBadge from '../CategoryBadge/CategoryBadge';
 import styles from './styles';
 
-const CategoryCard = ({title, image, color}) => {
+const CategoryCard = ({title, image, color, goToDetails}) => {
   return (
-    <TouchableOpacity style={styles.cardContainer}>
+    <TouchableOpacity style={styles.cardContainer} onPress={() => goToDetails()}>
       <ImageBackground
         source={image}
         resizeMode='cover'
