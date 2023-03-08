@@ -5,6 +5,7 @@ export const colors = {
   text: {
     primary: '#000000',
     light: '#7F7F7F',
+    yellow: '#FFC107',
   },
   borders: {
     primary: '#FE870E',

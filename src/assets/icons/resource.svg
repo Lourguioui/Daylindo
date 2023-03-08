@@ -1,0 +1,16 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="url(#paint0_linear_912_5390)"/>
+<rect x="14.9619" y="6.5" width="2.53846" height="5.07692" rx="1.26923" transform="rotate(90 14.9619 6.5)" fill="white"/>
+<rect x="9.03809" y="6.5" width="2.53846" height="2.53846" rx="1.26923" transform="rotate(90 9.03809 6.5)" fill="white"/>
+<rect x="9.03809" y="10.7307" width="2.53846" height="2.53846" rx="1.26923" transform="rotate(90 9.03809 10.7307)" fill="white"/>
+<rect x="9.03809" y="14.9615" width="2.53846" height="2.53846" rx="1.26923" transform="rotate(90 9.03809 14.9615)" fill="white"/>
+<rect x="17.5" y="10.7307" width="2.53846" height="7.61538" rx="1.26923" transform="rotate(90 17.5 10.7307)" fill="white"/>
+<rect x="15.8076" y="14.9615" width="2.53846" height="5.92308" rx="1.26923" transform="rotate(90 15.8076 14.9615)" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear_912_5390" x1="12" y1="0" x2="12" y2="24" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FE870E"/>
+<stop offset="0.527399" stop-color="#FD6B31"/>
+<stop offset="1" stop-color="#FD5250"/>
+</linearGradient>
+</defs>
+</svg>

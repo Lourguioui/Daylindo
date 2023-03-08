@@ -1,13 +1,37 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { SafeAreaView, Text, ImageBackground, View, TouchableOpacity, ScrollView } from 'react-native';
 import ArrowLeft from '../../assets/icons/arrow_left_white.svg';
 import MenuIcon from '../../assets/icons/Union.svg';
 import CategoryBadge from '../../components/CategoryBadge/CategoryBadge';
+import ResourceCard from '../../components/ResourceCard/ResourceCard';
 import Tag from '../../components/Tag/Tag';
+import Modal from 'react-native-modal';
 import { colors } from '../../themes';
 import styles from './styles';
+import ResourceOptions from '../../components/ResourceOptions/ResourceOptions';
 
-const CategoryScreen = ({navigation}) => {
+const TagPanel = () => {
+  return (
+    <View>
+      <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+        <View style={styles.tagsContainer}>
+          <Tag content='Tous' focused={true} />
+          <Tag content='Bonne pratique' />
+          <Tag content='Plan d’action' />
+          <Tag content='Video' />
+          <Tag content='Lecture' />
+          <Tag content='Tous' />
+          <Tag content='Tous' />
+          <Tag content='Tous' />
+          <Tag content='Tous' />
+        </View>
+      </ScrollView>
+    </View>
+  );
+};
+
+const CategoryScreen = ({ navigation }) => {
+  const [isModalVisible, setIsModalVisible] = useState(false);
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.headerContainer}>
@@ -25,25 +49,31 @@ const CategoryScreen = ({navigation}) => {
             </TouchableOpacity>
           </View>
           <View style={styles.categoryContainer}>
-            <CategoryBadge color={colors.primary}/>
+            <CategoryBadge color={colors.primary} />
             <Text style={styles.title}>Category 1</Text>
           </View>
         </ImageBackground>
       </View>
       <View style={styles.detailsContainer}>
-        <ScrollView horizontal={true}>
-          <Tag content='Tous' focused={true}/>
-          <Tag content='Bonne pratique'/>
-          <Tag content='Plan d’action'/>
-          <Tag content='Video'/>
-          <Tag content='Lecture'/>
-          <Tag content='Tous'/>
-          <Tag content='Tous'/>
-          <Tag content='Tous'/>
-          <Tag content='Tous'/>
+        <TagPanel />
+        <ScrollView showsVerticalScrollIndicator={false}>
+          <View style={styles.resourcesContainer}>
+            <ResourceCard onPress={() => setIsModalVisible(true)} />
+            <ResourceCard onPress={() => setIsModalVisible(true)} />
+            <ResourceCard onPress={() => setIsModalVisible(true)} />
+            <ResourceCard onPress={() => setIsModalVisible(true)} />
+          </View>
         </ScrollView>
-        <Text>Test</Text>
       </View>
+      <Modal
+        isVisible={isModalVisible}
+        onSwipeComplete={() => setIsModalVisible(false)}
+        swipeDirection={['down']}
+        onBackdropPress={() => setIsModalVisible(false)}
+        onBackButtonPress={() => setIsModalVisible(false)}
+        style={styles.modal}>
+        <ResourceOptions />
+      </Modal>
     </SafeAreaView>
   );
 };

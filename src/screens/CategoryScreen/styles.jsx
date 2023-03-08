@@ -6,8 +6,6 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
     height: '100%',
-    // justifyContent: 'center',
-    // alignItems: 'center',
   },
   headerContainer: {
     height: '21.80%',
@@ -33,6 +31,10 @@ const styles = StyleSheet.create({
     height: '82.20%',
     padding: 27,
   },
+  tagsContainer: {
+    flexDirection: 'row',
+    height: 24,
+  },
   actionsContainer: {
     paddingHorizontal: 32,
     paddingVertical: 28,
@@ -50,6 +52,17 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 20,
     marginLeft: 15,
+  },
+  resourcesContainer: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    flexWrap: 'wrap',
+    paddingVertical: 16,
+  },
+  modal: {
+    justifyContent: 'flex-end',
+    margin: 0,
   },
 });
 
