@@ -5,7 +5,7 @@ import ResourceIcon from '../../assets/icons/resource.svg';
 import Star from '../../assets/icons/rate_star.svg';
 import Menu from '../../assets/icons/Union_md.svg';
 
-const CardHeader = () => {
+const CardHeader = ({rate}) => {
   return (
     <View style={styles.headerContainer}>
       <View style={styles.container}>
@@ -14,7 +14,7 @@ const CardHeader = () => {
         </TouchableOpacity>
         <TouchableOpacity style={styles.rateContainer}>
           <Star />
-          <Text style={styles.rate}>2.1</Text>
+          <Text style={styles.rate}>{rate}</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.container}>
@@ -26,7 +26,7 @@ const CardHeader = () => {
   );
 };
 
-const ResourceCard = ({onPress}) => {
+const ResourceCard = ({title, rate, onPress}) => {
   return (
     <TouchableOpacity style={styles.cardContainer} onPress={() => onPress()}>
       <ImageBackground
@@ -34,9 +34,9 @@ const ResourceCard = ({onPress}) => {
         resizeMode='cover'
         style={styles.imageContainer}
         imageStyle={styles.imageStyle}>
-        <CardHeader />
+        <CardHeader rate={rate}/>
         <View style={styles.labelContainer}>
-          <Text style={styles.label}>Some really long name of lable goes here</Text>
+          <Text style={styles.label}>{title}</Text>
         </View>
         <View style={styles.actionContainer}>
           <TouchableOpacity style={styles.button}>

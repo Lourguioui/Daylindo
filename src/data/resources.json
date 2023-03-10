@@ -1,0 +1,821 @@
+[
+  {
+    "id": 1,
+    "title": "Category 1",
+    "color": "#FD5250",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Category 2",
+    "color": "#E7DC90",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Category 3",
+    "color": "#FFC107",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Category 4",
+    "color": "#2C85E8",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Category 5",
+    "color": "#FC9700",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Category 6",
+    "color": "#B24B98",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Category 7",
+    "color": "#FD5250",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Category 8",
+    "color": "#24AE85",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Category 9",
+    "color": "#B24B98",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Category 10",
+    "color": "#B24B98",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Category 11",
+    "color": "#B24B98",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Category 12",
+    "color": "#B24B98",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Category 13",
+    "color": "#B24B98",
+    "image": "../../assets/img/Bg.png",
+    "resources": [
+      {
+        "id": 1,
+        "rate": 4.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 2,
+        "rate": 3.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 3,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 4,
+        "rate": 2.0,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 5,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 6,
+        "rate": 2.9,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 7,
+        "rate": 1.5,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 8,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 9,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 10,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      },
+      {
+        "id": 11,
+        "rate": 2.3,
+        "title": "Some really long name of lable goes here"
+      }
+    ]
+  }
+]

@@ -9,6 +9,7 @@ import Modal from 'react-native-modal';
 import { colors } from '../../themes';
 import styles from './styles';
 import ResourceOptions from '../../components/ResourceOptions/ResourceOptions';
+import { useGetCategory } from '../../hooks/useGetCategory';
 
 const TagPanel = () => {
   return (
@@ -30,51 +31,54 @@ const TagPanel = () => {
   );
 };
 
-const CategoryScreen = ({ navigation }) => {
+const CategoryScreen = ({ navigation, route }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const { id } = route.params;
+  const { category, loading } = useGetCategory(id);
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={styles.headerContainer}>
-        <ImageBackground
-          source={require('../../assets/img/Bg2.png')}
-          resizeMode='cover'
-          imageStyle={styles.imageStyle}
-          style={styles.imageContainer}>
-          <View style={styles.actionsContainer}>
-            <TouchableOpacity onPress={() => navigation.goBack()}>
-              <ArrowLeft />
-            </TouchableOpacity>
-            <TouchableOpacity>
-              <MenuIcon />
-            </TouchableOpacity>
-          </View>
-          <View style={styles.categoryContainer}>
-            <CategoryBadge color={colors.primary} />
-            <Text style={styles.title}>Category 1</Text>
-          </View>
-        </ImageBackground>
-      </View>
-      <View style={styles.detailsContainer}>
-        <TagPanel />
-        <ScrollView showsVerticalScrollIndicator={false}>
-          <View style={styles.resourcesContainer}>
-            <ResourceCard onPress={() => setIsModalVisible(true)} />
-            <ResourceCard onPress={() => setIsModalVisible(true)} />
-            <ResourceCard onPress={() => setIsModalVisible(true)} />
-            <ResourceCard onPress={() => setIsModalVisible(true)} />
-          </View>
-        </ScrollView>
-      </View>
-      <Modal
-        isVisible={isModalVisible}
-        onSwipeComplete={() => setIsModalVisible(false)}
-        swipeDirection={['down']}
-        onBackdropPress={() => setIsModalVisible(false)}
-        onBackButtonPress={() => setIsModalVisible(false)}
-        style={styles.modal}>
-        <ResourceOptions />
-      </Modal>
-    </SafeAreaView>
+    !loading && (
+      <SafeAreaView style={styles.container}>
+        <View style={styles.headerContainer}>
+          <ImageBackground
+            source={require('../../assets/img/Bg2.png')}
+            resizeMode='cover'
+            imageStyle={styles.imageStyle}
+            style={styles.imageContainer}>
+            <View style={styles.actionsContainer}>
+              <TouchableOpacity onPress={() => navigation.goBack()}>
+                <ArrowLeft />
+              </TouchableOpacity>
+              <TouchableOpacity>
+                <MenuIcon />
+              </TouchableOpacity>
+            </View>
+            <View style={styles.categoryContainer}>
+              <CategoryBadge color={category?.color} />
+              <Text style={styles.title}>{category?.title}</Text>
+            </View>
+          </ImageBackground>
+        </View>
+        <View style={styles.detailsContainer}>
+          <TagPanel />
+          <ScrollView showsVerticalScrollIndicator={false}>
+            <View style={styles.resourcesContainer}>
+              {category?.resources.map((item, index) => (
+                <ResourceCard key={item.id} title={item.title} rate={item.rate} onPress={() => setIsModalVisible(true)} />
+              ))}
+            </View>
+          </ScrollView>
+        </View>
+        <Modal
+          isVisible={isModalVisible}
+          onSwipeComplete={() => setIsModalVisible(false)}
+          swipeDirection={['down']}
+          onBackdropPress={() => setIsModalVisible(false)}
+          onBackButtonPress={() => setIsModalVisible(false)}
+          style={styles.modal}>
+          <ResourceOptions />
+        </Modal>
+      </SafeAreaView>
+    )
   );
 };
 
